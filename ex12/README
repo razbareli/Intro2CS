@@ -1,0 +1,31 @@
+We have made a game of Boggle with a gui
+representation.
+The game is stractured as thus:
+In the middle of the screen there are 16
+buttons arranged as a 4*4 matrix.
+Each button has the letter it represents
+written upon it.
+Above the buttons there is the User interface which shows
+The current word made out of the buttons pressed and shows warnings
+if the need arise.
+
+On the right there are 4 buttons:
+check word:
+Which checks if the letters in the current buttons
+pressed make up for a word in the games word dictionary. If there is no such word - nothing will happen.
+If there is - points will be given and the selected letters will be cleared.
+reset:
+Which resets all buttons into their un-pressed condition
+and resets the user iterface to it's cleared state.
+restart game:
+Which restarts the game using a new board.
+Hint:
+Which offers the player a hint with the cost of 10 points.
+On the left of the screen there is a list of all the words found by the player.
+
+Additional features we have added to the game:
+1. The reset and restart game buttons.
+2. An optional Hint
+3.When right-clicking on the last button pressed the game will release that button. 
+4. Design: The buttons are highlightend when the mouse is above them
+and change colour when they are pressed.

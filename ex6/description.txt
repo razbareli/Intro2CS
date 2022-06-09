@@ -1,0 +1,6 @@
+choose_from_menu:
+we made this function in order to prevent repeating code in each of the menu functions.
+
+get_compose_file:
+this function helps turning the coposition text file into a python list.
+we thougt it was easier to make this seperate and not part of the compose function which is already long.
